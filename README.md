@@ -2,6 +2,7 @@
 Main ideas:
 - Coca-cola
 - Apple
+- NASDAQ or S&P500 as they contain large shares of Apple and Coca-Cola + perspective businesses
 
 ## Useful articles:
 
