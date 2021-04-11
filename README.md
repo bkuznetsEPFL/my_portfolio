@@ -1,4 +1,7 @@
 ## My investment portfolio w/ SwissQuote
+Main ideas:
+- Coca-cola
+- Apple
 
 ## Useful articles:
 
