@@ -5,10 +5,14 @@ Main ideas:
 - NASDAQ or S&P500 as they contain large shares of Apple and Coca-Cola + perspective businesses
 
 ## ETH/BTC data:
-- https://public.opendatasoft.com/explore/dataset/bitcoin/analyze/?dataChart=eyJxdWVyaWVzIjpbeyJjaGFydHMiOlt7InR5cGUiOiJhcmVhIiwiZnVuYyI6IkFWRyIsInlBeGlzIjoidHhjbnQiLCJzY2llbnRpZmljRGlzcGxheSI6dHJ1ZSwiY29sb3IiOiIjMkMzRjU2In0seyJ0eXBlIjoibGluZSIsImZ1bmMiOiJBVkciLCJ5QXhpcyI6ImFkcmFjdGNudCIsInNjaWVudGlmaWNEaXNwbGF5Ijp0cnVlLCJjb2xvciI6IiNFQzY0M0MifV0sInhBeGlzIjoiZGF0ZSIsIm1heHBvaW50cyI6IiIsInRpbWVzY2FsZSI6Im1vbnRoIiwic29ydCI6IiIsImNvbmZpZyI6eyJkYXRhc2V0IjoiYml0Y29pbiIsIm9wdGlvbnMiOnt9fX1dLCJkaXNwbGF5TGVnZW5kIjp0cnVlLCJhbGlnbk1vbnRoIjp0cnVlfQ%3D%3D - BTC data
 
-- https://public.opendatasoft.com/explore/dataset/ethereum/information/?dataChart=eyJxdWVyaWVzIjpbeyJjb25maWciOnsiZGF0YXNldCI6ImV0aGVyZXVtIiwib3B0aW9ucyI6e319LCJjaGFydHMiOlt7ImFsaWduTW9udGgiOnRydWUsInR5cGUiOiJsaW5lIiwiZnVuYyI6IkFWRyIsInlBeGlzIjoidnR5ZGF5cmV0MzBkIiwic2NpZW50aWZpY0Rpc3BsYXkiOnRydWUsImNvbG9yIjoiI0ZGNTE1QSJ9XSwieEF4aXMiOiJkYXRlIiwibWF4cG9pbnRzIjoiIiwidGltZXNjYWxlIjoieWVhciIsInNvcnQiOiIifV0sImRpc3BsYXlMZWdlbmQiOnRydWUsImFsaWduTW9udGgiOnRydWV9 - ETH data
+OpenDataSoft crypto daily data sets under MIT license, w/ plots (including number of transactions, supply curve etc., great source!):
+https://public.opendatasoft.com/explore/?sort=modified&q=crypto
+https://docs.coinmetrics.io/info/metrics (what do columns' names mean)
 
+Interesting opinions/analysis articles on crypto:
+https://insights.deribit.com/market-research/exploring-bitcoins-core-values-and-why-we-defend-them/
+https://insights.deribit.com/market-research/analysis-of-eip-1559/
 
 ## Useful articles:
 
