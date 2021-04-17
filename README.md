@@ -12,6 +12,11 @@ https://public.opendatasoft.com/explore/?sort=modified&q=crypto
 
 https://docs.coinmetrics.io/info/metrics (what do columns' names mean)
 
+Etherscan.io official data
+
+https://etherscan.io/chart/tx
+
+
 Interesting opinions/analysis articles on crypto:
 
 https://insights.deribit.com/market-research/exploring-bitcoins-core-values-and-why-we-defend-them/
