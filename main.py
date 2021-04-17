@@ -36,12 +36,12 @@ def show_scatter_and_return_corr(name: str, country: str, start_date: str, end_d
 
 def GBTC_study():
     gbtc = yf.Ticker("GBTC")
-    gbtc_ohlc = gbtc.history(period="max").resample('W').sum()
-    gbtc_ohlc['rets'] = np.log(gbtc_ohlc.Close).diff()
+    gbtc_ohlc = gbtc.history(period="max")
+    gbtc_ohlc['rets'] = np.log(gbtc_ohlc.Close).diff().ewm(span=5*10, adjust=False).mean()
 
     btc = yf.Ticker("BTC-USD")
-    btc_ohlc = btc.history(period="max").resample('W').sum()
-    btc_ohlc['rets'] = np.log(btc_ohlc.Close).diff()
+    btc_ohlc = btc.history(period="max")
+    btc_ohlc['rets'] = np.log(btc_ohlc.Close).diff().ewm(span=5*10, adjust=False).mean()
 
     gbtc_ohlc.dropna(inplace=True)
     btc_ohlc = btc_ohlc.reindex(gbtc_ohlc.index)
@@ -60,4 +60,3 @@ def GBTC_study():
 
 btc_ohlc, gbtc_ohlc = GBTC_study()
 
-# checking privacy
